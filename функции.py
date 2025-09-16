@@ -8,18 +8,18 @@
 #    return 5*x+2
 #print(y(0))
 
-#def hello(name):
-#    print(f'Hello {name}!')
-#surname='Ivanov'
-#print(f'My surname is {surname}')
-#print(hello('world'))
-#help(y)
+def hello(name):
+   print(f'Hello {name}!')
+surname='Ivanov'
+print(f'My surname is {surname}')
+print(hello('world'))
+help(y)
 
-#a=5
-#b=2
-#def y(x):
-#    return x*a+b
-#print(y(1))
+a=5
+b=2
+def y(x):
+   return x*a+b
+print(y(1))
 
 #a=5
 #b=2
@@ -39,3 +39,4 @@
 def y(x,a,b):
     return a*x + b
 print(y(0,1,2))
+
